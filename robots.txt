@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://creatorlaunch.github.io/creatorlaunch/sitemap.xml
