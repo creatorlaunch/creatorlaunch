@@ -1,1 +1,39 @@
-
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="index,follow">
+  <title>CreatorLaunch — Free YouTube Creator Tools</title>
+  <meta name="description" content="Free tools for YouTube creators: title checker, description counter, hashtag ideas and video tag generator. No signup required.">
+  <meta name="keywords" content="YouTube title checker, YouTube description counter, hashtag generator, video tags generator, free creator tools">
+  <meta property="og:type" content="website"><meta property="og:title" content="CreatorLaunch — Free YouTube Creator Tools"><meta property="og:description" content="Simple, free tools to help creators plan and optimize videos.">
+  <meta name="theme-color" content="#101827"><link rel="stylesheet" href="styles.css">
+  <style>
+    .guide-card{display:block;color:inherit;text-decoration:none;padding:22px;border:1px solid var(--line);border-radius:14px;background:#151f31;transition:border-color .2s,transform .2s}
+    .guide-card:hover,.guide-card:focus-visible{border-color:var(--mint);transform:translateY(-2px);outline:none}
+    .guide-card h3{font-size:18px;line-height:1.3}
+    .guide-card p{color:var(--muted);font-size:14px;margin-bottom:14px}
+    .guide-read{display:inline-block;color:var(--mint);font-size:13px;font-weight:800;letter-spacing:0}
+  </style>
+</head>
+<body>
+<header class="top"><a class="brand" href="#home"><span class="logo">C</span> CreatorLaunch</a><nav><a href="#tools">Tools</a><a href="#guides">Creator guides</a><a href="#about">About</a></nav></header>
+<main id="home">
+<section class="hero"><div class="eyebrow">FREE TOOLS FOR VIDEO CREATORS</div><h1>Make your next video<br><span>easier to launch.</span></h1><p>Practical, no-signup tools to plan better YouTube titles, descriptions, hashtags and tags.</p><a class="primary" href="#tools">Explore free tools <span>→</span></a><div class="trust"><span>✓ Free to use</span><span>✓ No account needed</span><span>✓ Works in your browser</span></div></section>
+<section id="tools" class="section"><div class="section-head"><div><div class="eyebrow">THE TOOLBOX</div><h2>Creator tools</h2></div><p>Quick checks and idea starters for your next upload.</p></div>
+<div class="grid">
+<article class="tool"><div class="tool-icon">Aa</div><h3>YouTube Title Checker</h3><p>Check title length and readability before publishing.</p><label class="sr-only" for="titleInput">Video title</label><textarea id="titleInput" maxlength="150" placeholder="Paste your video title..."></textarea><div class="meter"><strong id="titleCount">0</strong><span>/ 100 characters recommended</span></div><p id="titleFeedback" class="feedback">A clear, focused title is easier to scan.</p></article>
+<article class="tool"><div class="tool-icon">¶</div><h3>Description Counter</h3><p>Count characters and words in your video description.</p><label class="sr-only" for="descInput">Video description</label><textarea id="descInput" placeholder="Paste your video description..."></textarea><div class="stats"><span><strong id="descChars">0</strong> characters</span><span><strong id="descWords">0</strong> words</span></div></article>
+<article class="tool"><div class="tool-icon">#</div><h3>Hashtag Idea Generator</h3><p>Enter a topic to get relevant hashtag ideas.</p><label class="sr-only" for="topicInput">Video topic for hashtags</label><input id="topicInput" placeholder="e.g. easy home workouts"><button id="hashtagBtn" class="secondary">Generate ideas</button><div id="hashtagOutput" class="output" aria-live="polite">Your hashtag ideas will appear here.</div></article>
+<article class="tool"><div class="tool-icon">⌁</div><h3>Video Tag Starter</h3><p>Create a starter list of search phrases from your topic.</p><label class="sr-only" for="tagTopic">Video topic for tags</label><input id="tagTopic" placeholder="e.g. beginner guitar lesson"><button id="tagBtn" class="secondary">Create tag ideas</button><div id="tagOutput" class="output" aria-live="polite">Your tag ideas will appear here.</div></article>
+</div></section>
+<section id="guides" class="section guides"><div class="eyebrow">LEARN AS YOU CREATE</div><h2>Simple creator guides</h2><div class="guide-grid">
+<a class="guide-card" href="guides/youtube-title-writing.html"><span>01 / PLANNING</span><h3>How to write a clear YouTube title</h3><p>Lead with the main topic, be specific, and set an honest expectation for the viewer.</p><span class="guide-read">Read guide →</span></a>
+<a class="guide-card" href="guides/youtube-description-guide.html"><span>02 / PUBLISHING</span><h3>What to include in a video description</h3><p>Summarize the video, add useful links, include chapters when relevant, and keep it readable.</p><span class="guide-read">Read guide →</span></a>
+<a class="guide-card" href="guides/youtube-hashtag-guide.html"><span>03 / DISCOVERY</span><h3>Using hashtags without overdoing it</h3><p>Choose a small number of relevant hashtags, check current platform guidance, and avoid unrelated or repetitive tags.</p><span class="guide-read">Read guide →</span></a>
+</div></section>
+<section class="section" id="how-it-works"><div class="eyebrow">HOW IT WORKS</div><h2>Fast, private, and simple</h2><p class="about-copy">Enter a topic or paste draft text into a tool. Results are generated in your browser, so this starter version does not upload your text. Always review suggestions for accuracy and relevance before publishing.</p></section>
+<section id="about" class="about"><div><div class="eyebrow">ABOUT CREATORLAUNCH</div><h2>Useful tools.<br>Less busywork.</h2></div><p>CreatorLaunch is an independent resource designed to make everyday video publishing tasks quicker. Tools run in your browser; the text you enter is not sent to a server by this demo website.</p></section>
+</main>
+<footer><a class="brand" href="#home"><span class="logo">C</span> CreatorLaunch</a><div><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="contact.html">Contact</a></div><small>© 2026 CreatorLaunch. Independent creator resource; not affiliated with YouTube or Google.</small></footer>
+<script src="script.js"></script>
+</body></html>
